@@ -10,7 +10,7 @@ float f;
 int main() {
     
     //initialize pizza object calling constructor;
-    Pizza pizza(4, 70);
+    Pizza pizza(4, 75);
     
     d = pizza.doughAmount();
     cout << d << "kg of total dough!" << endl;
