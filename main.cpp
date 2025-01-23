@@ -11,7 +11,9 @@ int main() {
     
     //initialize pizza object calling constructor;
     Pizza pizza(4, 75);
-    
+   
+    cout << "For " << pizza.npeople << " people, and " << pizza.water << "% hydration " << "it is recommended: " << endl;
+
     d = pizza.doughAmount();
     cout << d << "kg of total dough!" << endl;
 
